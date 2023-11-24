@@ -3,6 +3,9 @@ from main import clf
 
 
 def test_accuracy():
+    '''
+    Unit Testing function
+    '''
 
     # Load test data
     with open("data/test_data.pkl", "rb") as file:
